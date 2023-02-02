@@ -1,0 +1,11 @@
+.Fruit {
+    width: 100%;
+    height: 100%;
+
+
+}
+
+.Fruit img {
+    flex-wrap: wrap;
+
+}

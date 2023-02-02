@@ -1,0 +1,3 @@
+export  const CHANGE_FRUIT_BOX  = 'CHANGE_FRUIT_BOX';
+export  const  CHANGE_BOX_SHELF  = 'CHANGE_BOX_SHELF'
+export const  SORT_FRUITS_IS_BOX = 'SORT_FRUITS_IS_BOX'

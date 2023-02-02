@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  width: 1200px;
+  height: 800px;
+  background: #e7e0ca;
+  /* border: 1px solid steelblue; */
+  margin: auto;
+  position: relative;
+}
+
+.text {
+  height: 50px;
+  font-size: 25px;
+  background: #79bdd8;
+  margin: auto;
+}
+
+.shelf {
+  display: flex;
+  justify-content: flex-start;
+  width: 1200px;
+  height: 260px;
+  background: #afa586;
+  margin-bottom: 25px;
+}
+
+.boxs_fruits {
+  display: flex;
+  flex-wrap: wrap;
+  float: inline-start;
+  width: 17%;
+  height: 252px;
+  border: 4px solid rgb(54, 35, 26);
+  margin: 0 15px;
+  position: relative;
+}
+
+.boxs {
+  display: flex;
+  flex-wrap: wrap;
+  /* overflow: auto */
+}
+
+.boxs_text {
+  position: absolute;
+
+  top: -20px;
+}
+
+.fruits1 {
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+}
+
+.fruits2 {
+  width: 45px;
+  height: 45px;
+  border-radius: 100%;
+}
+
+.fruits3 {
+  width: 55px;
+  height: 55px;
+  border-radius: 100%;
+}
+
+.fruit {
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+}
+
+.sort {
+  margin: 15px;
+  padding: 10px;
+  position: relative;
+  left: 35%;
+  background: #8bbacf;
+}
